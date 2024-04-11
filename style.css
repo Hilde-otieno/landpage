@@ -163,5 +163,7 @@
         height: 800px;
         background-color: rgb(256, 211, 218);
     }
-    
+    #sub{
+        margin-left: 0px;
+    }
 }
