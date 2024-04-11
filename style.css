@@ -1,0 +1,186 @@
+#container{
+    height: 1050px;
+    width: 1500px;
+    background-color:white;
+    border-radius: 50px;
+    border: solid black;
+}
+#section1{
+    display: flex;
+}
+#navbar{
+   display: flex; 
+   gap: 15%;
+   display: flex;
+}
+#baims{
+    font-family:serif;
+    margin-left: 60px;
+    font-weight:50;
+    font-size: xx-large;
+}
+#button{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    background-color: transparent;
+    gap: 2%;
+}
+#search{
+    width: 30px;
+    height: 30px;
+    margin-left: 6px;
+    background-color: transparent;
+}
+#section1{
+    display: flex;
+    gap: 25%;
+}
+#section2{
+    display: flex;
+    gap: 15%;
+}
+#sign{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    -webkit-text-fill-color: white;
+    border-radius: 25px;
+}
+#landpage{
+    display: flex;
+    gap: 5%;
+}
+#anytime{
+    font-size: xxx-large;
+}
+#study{
+    margin-left: 60px;
+}
+#learn{
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+}
+#land{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+#courses{
+    display: flex;
+    font-size: x-large;
+    gap: 15%;
+    background-color: white;
+    width: 1500px;
+
+}
+#subjects{
+    margin-left: 150px;
+}
+#upper{
+    width: 1500px;
+    border-radius: 50px;
+    height: 850px;
+    background-color: rgb(256, 211, 218);
+}
+@media screen and (min-width:280px) and (max-width: 560px){
+    #container{
+        height: 1050px;
+        width: 400px;
+        background-color:white;
+        border-radius: 10px;
+        border: solid black;
+    }
+    #section1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar{
+       gap: 2%;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    #baims{
+        font-family:serif;
+        margin-left: 10px;
+        font-weight:10;
+        font-size: xx-small;
+    }
+    #button{
+        width: 100px;
+        height: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: transparent;
+        gap: 2%;
+    }
+    #search{
+        width: 10px;
+        height: 10px;
+        margin-left: 6px;
+        background-color: transparent;
+    }
+    #section1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20%;
+    }
+    #section2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    #sign{
+        width: 50px;
+        height: 20px;
+        background-color: black;
+        -webkit-text-fill-color: white;
+        border-radius: 10px;
+    }
+    #landpage{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    #anytime{
+        font-size: xx-small;
+    }
+    #study{
+        margin-left: 10px;
+    }
+    #learn{
+        width: 100px;
+        height: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #land{
+        width: 20%;
+        height: 20%;
+        object-fit: cover;
+    }
+    #courses{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: x-small;
+        gap: 15%;
+        background-color: white;
+        width: 500px;
+    
+    }
+    #subjects{
+        margin-left: 50px;
+    }
+    #upper{
+        width: 500px;
+        border-radius: 10px;
+        height: 300px;
+        background-color: rgb(256, 211, 218);
+    }
+}
+
