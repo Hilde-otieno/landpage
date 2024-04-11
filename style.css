@@ -62,8 +62,8 @@
     display: flex;
 }
 #land{
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     object-fit: cover;
 }
 #courses{
@@ -71,8 +71,10 @@
     font-size: x-large;
     gap: 15%;
     background-color: white;
-    width: 1500px;
-
+    width: 1500px; 
+}
+#sub{
+    margin-left: 150px;
 }
 #upper{
     width: 1500px;
