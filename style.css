@@ -1,6 +1,6 @@
 #container{
         height: 870px;
-        width: 1660px;
+        width: 1830px;
         background-color:rgb(256, 211, 218);
         border-radius: 50px;
     }
@@ -19,7 +19,7 @@
         font-weight:50;
         font-size: xx-large;
     }
-    #searchforanything{
+    #search-for-anything{
         width: 500px;
         height: 40px;
         border-radius: 20px;
@@ -27,19 +27,21 @@
         background-color: transparent;
         gap: 2%;
         margin-top: 10px;
+        font-size: larger;
+        -webkit-text-fill-color: black;
     }
     #search{
         width: 30px;
         height: 30px;
         background-color: transparent;
     }
-    #applyasinstructor{
+    #apply-as-instructor{
         display: flex;
-        gap: 15%;
+        gap: 20%;
         width: 800px;
         
     }
-    #signup{
+    #sign-up{
         width: 150px;
         height: 40px;
         background-color: black;
@@ -47,70 +49,71 @@
         border-radius: 25px;
         margin-top: 10px;
     }
-    #studyanytime{
+    #study-anytime{
         display: flex;
-        gap: 5%;
+        gap: 17%;
     }
-    #whereveryouare{
+    #wherever-you-are{
         font-size: xxx-large;
     }
     #anytime{
         margin-left: 60px;
     }
-    #wanttolearn{
+    #want-to-learn{
         width: 300px;
         height: 40px;
         border-radius: 25px;
         display: flex;
     }
-    #landingpageimage{
+    #landing-page-image{
         width: 600px;
-        height: 600px;
+        height: 500px;
         border-radius: 50px;
         object-fit: cover;
+        margin-top: 50px;
     }
     #footer{
         display: flex;
         font-size: x-large;
         gap: 15%;
         background-color: white;
-        width: 1660px; 
+        width: 1830px; 
     }
-    #landingpage{
+    #landing-page{
         width: 1660px;
         border-radius: 50px;
-        height: 700px;
+        height: 750px;
         background-color: pinkrgb(256, 211, 218);
     }
-    #coursesandsubjects{
+    #courses-and-subjects{
         margin-left: 150px;
     }
-    #dropdownarrow{
+    #drop-down-arrow{
         width: 13px;
         height: 13px;
         margin-top: 20px;
     }
-    #coursesimage{
+    #courses-image{
         display: flex;
         gap: 3px;
     }
     
     @media screen and (min-width:280px) and (max-width: 480px){
         #container{
-            height: 750px;
+            height: 100%;
             width: 100%;
             background-color:rgb(256, 211, 218);
-            border-radius: 50px;
+            border-radius: 20px;
         }
         #courses{
            gap: 15%;
            display: flex;
-           flex-wrap: wrap;
+           font-size: small;
         }
         #navbar{
             display: flex;
             flex-wrap: wrap;
-            gap: 25%;
+            gap: 5%;
         }
         #baims{
             font-family:serif;
@@ -118,60 +121,64 @@
             font-weight:50;
             font-size:small;
         }
-        #searchforanything{
-            width: 200px;
+        #search-for-anything{
+            width: 110px;
             height: 20px;
             border-radius: 20px;
             display: flex;
-            flex-wrap: wrap;
             background-color: transparent;
             gap: 2%;
             margin-top: 10px;
+            margin-left: 10px;
+            font-size: smaller;
         }
         #search{
             width: 10px;
             height: 10px;
             background-color: transparent;
         }
-        #applyasinstructor{
+        #apply-as-instructor{
             display: flex;
-            flex-wrap: wrap;
+            font-size: small;
             gap: 15%;
             width: 100%;
             
         }
-        #signup{
-            width: 150px;
+        #sign-up{
+            width: 100px;
             height: 20px;
+            font-size: smaller;
             background-color: black;
             -webkit-text-fill-color: white;
             border-radius: 15px;
             margin-top: 5px;
         }
-        #studyanytime{
+        #study-anytime{
             display: flex;
             flex-wrap: wrap;
             gap: 15%;
         }
-        #whereveryouare{
-            font-size: xx-small;
+        #wherever-you-are{
+            font-size: small;
         }
         #anytime{
             margin-left: 6px;
         }
-        #wanttolearn{
+        #want-to-learn{
             width: 200px;
             height: 20px;
-            border-radius: 5px;
+            border-radius: 10px;
+            -webkit-text-fill-color: black;
             display: flex;
             flex-wrap: wrap;
 
         }
-        #landingpageimage{
+        #landing-page-image{
             width: 250px;
-            height: 300px;
-            margin-left: 10px;
+            height: 190px;
+            margin-left: 50px;
             object-fit: cover;
+            margin-top: -25px;
         }
         #footer{
             display: flex;
@@ -181,21 +188,21 @@
             background-color: white;
             width: 100%; 
         }
-        #landingpage{
+        #landing-page{
             width: 100%;
             border-radius: 50px;
-            height: 700px;
+            height: 580px;
             background-color: pinkrgb(256, 211, 218);
         }
-        #coursesandsubjects{
+        #courses-and-subjects{
             margin-left: 15px;
         }
-        #dropdownarrow{
+        #drop-down-arrow{
             width: 5px;
             height: 5px;
             margin-top: 5px;
         }
-        #coursesimage{
+        #courses-image{
             display: flex;
             flex-wrap: wrap;
             gap: 3%;
@@ -203,20 +210,19 @@
     }
     @media screen and (min-width:481px) and (max-width: 768px){
         #container{
-            height: 750px;
+            height: 100%;
             width: 100%;
             background-color:rgb(256, 211, 218);
-            border-radius: 50px;
+            border-radius: 20px;
         }
         #courses{
-           gap: 15%;
+           gap: 5%;
            display: flex;
-           flex-wrap: wrap;
+           font-size: small;
         }
         #navbar{
             display: flex;
-            flex-wrap: wrap;
-            gap: 25%;
+            gap: 10%;
         }
         #baims{
             font-family:serif;
@@ -224,12 +230,13 @@
             font-weight:50;
             font-size:small;
         }
-        #searchforanything{
-            width: 200px;
+        #search-for-anything{
+            width: 100px;
             height: 20px;
             border-radius: 20px;
             display: flex;
             flex-wrap: wrap;
+            font-size: x-small;
             background-color: transparent;
             gap: 2%;
             margin-top: 10px;
@@ -239,69 +246,71 @@
             height: 10px;
             background-color: transparent;
         }
-        #applyasinstructor{
+        #apply-as-instructor{
             display: flex;
-            flex-wrap: wrap;
-            gap: 15%;
+            gap: 4%;
             width: 100%;
+            font-size: small;
             
         }
-        #signup{
-            width: 150px;
+        #sign-up{
+            width: 70px;
             height: 20px;
             background-color: black;
             -webkit-text-fill-color: white;
             border-radius: 15px;
-            margin-top: 5px;
+            margin-top: 15px;
+            font-size: x-small;
         }
-        #studyanytime{
+        #study-anytime{
             display: flex;
             flex-wrap: wrap;
             gap: 15%;
         }
-        #whereveryouare{
-            font-size: xx-small;
+        #wherever-you-are{
+            font-size: large;
         }
         #anytime{
             margin-left: 6px;
         }
-        #wanttolearn{
+        #want-to-learn{
             width: 200px;
             height: 20px;
-            border-radius: 5px;
+            border-radius: 50px;
             display: flex;
             flex-wrap: wrap;
+            -webkit-text-fill-color: black;
 
         }
-        #landingpageimage{
-            width: 250px;
-            height: 300px;
+        #landing-page-image{
+            width: 300px;
+            height: 270px;
             margin-left: 10px;
             object-fit: cover;
+            margin-top: -15px;
         }
         #footer{
             display: flex;
-            flex-wrap: wrap;
-            font-size: xx-small;
+            font-size: x-small;
             gap: 10%;
             background-color: white;
             width: 100%; 
         }
-        #landingpage{
+        #landing-page{
             width: 100%;
             border-radius: 50px;
-            height: 700px;
+            height: 600px;
             background-color: pinkrgb(256, 211, 218);
         }
-        #coursesandsubjects{
-            margin-left: 15px;
+        #courses-and-subjects{
+            margin-left: 60px;
         }
-        #dropdownarrow{
+        #drop-down-arrow{
             width: 5px;
             height: 5px;
             margin-top: 5px;
         }
-        #coursesimage{
+        #courses-image{
             display: flex;
             flex-wrap: wrap;
             gap: 3%;
@@ -309,28 +318,27 @@
     }
     @media screen and (min-width:769px) and (max-width: 1024px){
         #container{
-            height: 750px;
+            height: 100%;
             width: 100%;
             background-color:rgb(256, 211, 218);
-            border-radius: 50px;
+            border-radius: 10px;
         }
         #courses{
-           gap: 15%;
+           gap: 5%;
            display: flex;
-           flex-wrap: wrap;
+           font-size: x-large;
         }
         #navbar{
             display: flex;
-            flex-wrap: wrap;
-            gap: 25%;
+            gap: 10%;
         }
         #baims{
             font-family:serif;
-            margin-top: 15px;
+            margin-top: 23px;
             font-weight:50;
-            font-size:small;
+            font-size:x-large;
         }
-        #searchforanything{
+        #search-for-anything{
             width: 200px;
             height: 20px;
             border-radius: 20px;
@@ -338,82 +346,85 @@
             flex-wrap: wrap;
             background-color: transparent;
             gap: 2%;
-            margin-top: 10px;
+            margin-top: 23px;
+            font-size: large;
         }
         #search{
             width: 10px;
             height: 10px;
             background-color: transparent;
         }
-        #applyasinstructor{
+        #apply-as-instructor{
             display: flex;
-            flex-wrap: wrap;
-            gap: 15%;
+            gap: 5%;
             width: 100%;
+            font-size: x-large;
             
         }
-        #signup{
-            width: 150px;
-            height: 20px;
+        #sign-up{
+            width: 100px;
+            height: 40px;
             background-color: black;
             -webkit-text-fill-color: white;
             border-radius: 15px;
-            margin-top: 5px;
+            margin-top: 23px;
+            font-size: large;
         }
-        #studyanytime{
-            display: flex;
+        #study-anytime{
+            display: block;
             flex-wrap: wrap;
             gap: 15%;
         }
-        #whereveryouare{
-            font-size: xx-small;
+        #wherever-you-are{
+            font-size: xx-large;
         }
         #anytime{
             margin-left: 6px;
         }
-        #wanttolearn{
+        #want-to-learn{
             width: 200px;
-            height: 20px;
-            border-radius: 5px;
+            height: 40px;
+            border-radius: 50px;
             display: flex;
             flex-wrap: wrap;
+            -webkit-text-fill-color: black;
 
         }
-        #landingpageimage{
-            width: 250px;
-            height: 300px;
+        #landing-page-image{
+            width: 600px;
+            height: 600px;
             margin-left: 10px;
+            margin-top: 5px;
             object-fit: cover;
         }
         #footer{
             display: flex;
-            flex-wrap: wrap;
-            font-size: xx-small;
-            gap: 10%;
+            font-size: small;
+            gap: 16%;
             background-color: white;
             width: 100%; 
         }
-        #landingpage{
+        #landing-page{
             width: 100%;
             border-radius: 50px;
-            height: 700px;
+            height: 1150px;
             background-color: pinkrgb(256, 211, 218);
         }
-        #coursesandsubjects{
-            margin-left: 15px;
+        #courses-and-subjects{
+            margin-left: 70px;
         }
-        #dropdownarrow{
+        #drop-down-arrow{
             width: 5px;
             height: 5px;
             margin-top: 5px;
         }
-        #coursesimage{
+        #courses-image{
             display: flex;
             flex-wrap: wrap;
             gap: 3%;
         }
     }
-    @media screen and (min-width:1025px) and (max-width: 1200px){
+    @media screen and (min-width:1025px) and (max-width: 1500px){
         #container{
             height: 750px;
             width: 100%;
@@ -423,20 +434,18 @@
         #courses{
            gap: 15%;
            display: flex;
-           flex-wrap: wrap;
         }
         #navbar{
             display: flex;
-            flex-wrap: wrap;
             gap: 25%;
         }
         #baims{
             font-family:serif;
             margin-top: 15px;
             font-weight:50;
-            font-size:small;
+            font-size:large;
         }
-        #searchforanything{
+        #search-for-anything{
             width: 200px;
             height: 20px;
             border-radius: 20px;
@@ -445,75 +454,76 @@
             background-color: transparent;
             gap: 2%;
             margin-top: 10px;
+            font-size: small;
+            -webkit-text-fill-color: black;
         }
         #search{
             width: 10px;
             height: 10px;
             background-color: transparent;
         }
-        #applyasinstructor{
+        #apply-as-instructor{
             display: flex;
             flex-wrap: wrap;
             gap: 15%;
-            width: 100%;
+            width: 600px;
             
         }
-        #signup{
+        #sign-up{
             width: 150px;
-            height: 20px;
+            height: 30px;
             background-color: black;
             -webkit-text-fill-color: white;
-            border-radius: 15px;
-            margin-top: 5px;
+            border-radius: 45px;
+            margin-top: 10px;
         }
-        #studyanytime{
+        #study-anytime{
             display: flex;
-            flex-wrap: wrap;
-            gap: 15%;
+            gap: 5%;
+            font-size: x-large;
         }
-        #whereveryouare{
-            font-size: xx-small;
+        #wherever-you-are{
+            font-size: x-large;
         }
         #anytime{
             margin-left: 6px;
         }
-        #wanttolearn{
+        #want-to-learn{
             width: 200px;
             height: 20px;
-            border-radius: 5px;
+            border-radius: 15px;
             display: flex;
             flex-wrap: wrap;
-
         }
-        #landingpageimage{
-            width: 250px;
-            height: 300px;
-            margin-left: 10px;
+        #landing-page-image{
+            width: 400px;
+            height: 400px;
+            margin-left: 0px;
             object-fit: cover;
         }
         #footer{
             display: flex;
             flex-wrap: wrap;
-            font-size: xx-small;
-            gap: 10%;
+            font-size: large;
+            gap: 20%;
             background-color: white;
             width: 100%; 
         }
-        #landingpage{
+        #landing-page{
             width: 100%;
             border-radius: 50px;
-            height: 700px;
+            height: 650px;
             background-color: pinkrgb(256, 211, 218);
         }
-        #coursesandsubjects{
-            margin-left: 15px;
+        #courses-and-subjects{
+            margin-left: 0px;
         }
-        #dropdownarrow{
+        #drop-down-arrow{
             width: 5px;
             height: 5px;
             margin-top: 5px;
         }
-        #coursesimage{
+        #courses-image{
             display: flex;
             flex-wrap: wrap;
             gap: 3%;
